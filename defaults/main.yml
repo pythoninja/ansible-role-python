@@ -1,0 +1,7 @@
+---
+compiled_python_version: 3.6.4
+compiled_python_dist_name:  "Python-{{ compiled_python_version }}"
+compiled_python_tarball: "{{ compiled_python_dist_name }}.tar.xz"
+compiled_python_build_dir: "/tmp"
+compiled_python_cleanup: True
+compiled_python_with_pip: True
